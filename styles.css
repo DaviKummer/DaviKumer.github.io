@@ -1,0 +1,45 @@
+/* Estilos gerais */
+body {
+    background-color: black; /* Define o fundo preto */
+    color: white; /* Cor do texto principal */
+    font-family: 'Times New Roman', Times, serif; /* Fonte Times New Roman */
+    text-align: left; /* Alinha todo o texto à esquerda */
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilo para o título "Meus Projetos" */
+h1 {
+    color: #5bbe42; /* Cor verde para o título */
+    font-size: 36px; /* Tamanho da fonte do título */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+    text-align: center; /* Centraliza o título */
+}
+
+/* Estilos para cada projeto */
+.project {
+    margin-bottom: 60px; /* Espaço maior entre os projetos */
+}
+
+/* Estilos para o título do projeto */
+.project h2 {
+    font-size: 28px; /* Tamanho da fonte do título */
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
+
+/* Estilos para a descrição do projeto */
+.project p {
+    font-size: 18px; /* Tamanho da fonte da descrição */
+    line-height: 1.6; /* Espaçamento entre linhas da descrição */
+}
+
+/* Estilos para o vídeo */
+.video-container {
+    width: 100%; /* Define largura máxima para o vídeo */
+    text-align: center; /* Centraliza o vídeo */
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+video {
+    width: 80%; /* Largura do vídeo */
+    max-width: 800px; /* Largura máxima do vídeo */
+}
